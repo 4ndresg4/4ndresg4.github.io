@@ -131,7 +131,11 @@ footer .social-media p{
     display:none;
   }
   .cards .card img{
-    width: 300px;
+    width: 450px;
+  }
+  .cards{
+    display: grid;
+    place-items:center;
   }
 }
 
@@ -140,63 +144,54 @@ footer .social-media p{
   --primary-color-alt: #383535;
   --dark-color: hsl(300, 100%, 0%);}
 
-/* ================= BASE ==================== */
-
-.home-computer{
+img{
   width: 100%;
-  height: auto;
 }
-body {
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem;
-
+.container {
+  padding: 0 2rem;
 }
 
 
-/* -------- HOME SECTION -------------- */
+
+  /* -------- HOME SECTION -------------- */
 .section-1 {
   background-color: var(--dark-color);
   display: grid;
 }
-/* .letras del lado izquierdo{} */
+/* .home-computer-container {} */
 
 .slogan .company-title {
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color),
-    var(--primary-color)
-  );
+  color: #fff;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-top: 5em;
+  margin-top: 2rem;
   font-size: 1.5rem;
   font-weight: 600;
 }
 .slogan .company-slogan {
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color),
-    var(--primary-color)
-  );
+  color: #fff;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: #68505000;
   margin-top: 1rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.8rem;
 }
 
-  /* -------- tamaño letras -------------- */
+
+/* -------- Media -------------- */
+@media (min-width: 769px) {
   .section-1 {
     justify-content: space-between;
     grid-template-columns: 1fr 1fr;
-    padding: 1rem 5rem 0 5rem;
+    padding: 10rem 5rem 0 5rem;
   }
   .slogan .company-title {
     max-width: 30rem;
     font-size: 1.8rem;
+    letter-spacing: 0.5rem;
   }
   .slogan .company-slogan {
-    max-width: 30rem;
+    max-width: 20rem;
     font-size: 1.3rem;
   }
+
+}
