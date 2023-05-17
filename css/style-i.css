@@ -69,7 +69,6 @@ header button{
 /* Toutes les cartes */
 .cards{
   display:flex;
-  flex-wrap:wrap;
 }
 .cards .card{
   margin-right: 20px;
@@ -84,7 +83,7 @@ header button{
   justify-content: space-between;
 }
 .cards .card .card-body p{
-  margin-top: -10px;
+  margin-top: -20px;
 }
 /* Fin de toutes les cartes */
 
@@ -132,6 +131,9 @@ footer .social-media p{
   }
   .cards .card img{
     width: 300px;
+  }
+  .cards{
+    flex-wrap: wrap;
   }
 }
 
