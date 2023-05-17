@@ -131,11 +131,7 @@ footer .social-media p{
     display:none;
   }
   .cards .card img{
-    width: 450px;
-  }
-  .cards{
-    display: grid;
-    place-items:center;
+    width: 300px;
   }
 }
 
