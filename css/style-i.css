@@ -131,11 +131,37 @@ footer .social-media p{
   }
   .cards .card img{
     width: 300px;
+    position: relative;
+    right: -35px;
   }
   .cards{
     flex-wrap: wrap;
   }
+  .card .card-header{
+    position: relative;
+    right: -9px;
+  }
+   .card .card-body{
+    position: relative;
+    right: -9px;
+  }
+  .slogan{
+  text-align:center;
+  font-size: 1.8rem;
+
+  }
+  .slogan h1{
+  font-size: 1.4rem;
+  }
+  header h1{
+  font-size: 32px;
+  }
+  .cards{
+    position: relative;
+    top: -80px;
+    }
 }
+
 
 :root {
   --primary-color: hsl(0deg 0% 96%);
@@ -162,7 +188,6 @@ img{
   color: #fff;
   -webkit-background-clip: text;
   margin-top: 2rem;
-  font-size: 1.5rem;
   font-weight: 600;
 }
 .slogan .company-slogan {
@@ -193,3 +218,11 @@ img{
   }
 
 }
+@media (max-width: 386px) {
+  .icononav img{
+    width: 50px;
+    height:auto;
+  }
+
+}
+
