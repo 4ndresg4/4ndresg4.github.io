@@ -225,4 +225,25 @@ img{
   }
 
 }
+@media (max-width: 376px) {
+  .icononav img{
+    width: 40px;
+    height:auto;
+  }
+
+}
+@media (max-width: 366px) {
+  .icononav img{
+    width: 30px;
+    height:auto;
+  }
+
+}
+@media (max-width: 356px) {
+  .icononav img{
+    width: 20px;
+    height:auto;
+  }
+
+}
 
