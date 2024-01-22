@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Attom Producto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="cpc-viewport" data-bind="style: {display: 'block'}">
+	<div class="cpc-table-cell">
+		<div class="cpc-table-align">
+			<main role="main" class="cpc-main">
+				<div data-bind="attr: {class: data.currentShoeOption().className + ' cpc-product-imgs'}">
+					<div class="cpc-nike-tick">
+						<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370.38232 370.79736">
+                          <title>Sin título-3</title>
+                          <text transform="translate(0 370.79736)" font-size="412" fill="#fff" font-family="Anurati-Regular, Anurati">A</text>
+                        </svg>
+
+					</div>
+					<div class="cpc-img-wrapper">
+						<img id="cpc-img" class="cpc-product-shoe-img animated fadeInLeft" data-bind="attr: {src: data.currentShoeOption().shoeImage}" src='https://i.imgur.com/lpOwE9G.png'>
+					</div>
+					<div class="cpc-circle-container">
+						<span class="cpc-product-circle-active cpc-product-img-circle"></span>
+					
+					</div>
+				</div>
+				<div class="cpc-product-info">
+					<article class="animated fadeInRight">
+						<section class="cpc-product-header">
+							<h1 class="cpc-product-title">Manga Corta Attom</h1>
+							<div class="cpc-rating-container">
+								<div class="cpc-product-rating">
+									<span class="cpc-product-star-false"></span>
+									<span class="cpc-product-star-false"></span>
+									<span class="cpc-product-star-false"></span>
+									<span class="cpc-product-star-false"></span>
+									<span class="cpc-product-star-false"></span>
+									<div class="cpc-product-rating-width" data-bind="style: {width: data.currentShoeOption().rating + '%'}">
+										<span class="cpc-product-star-true"></span>
+										<span class="cpc-product-star-true"></span>
+										<span class="cpc-product-star-true"></span>
+										<span class="cpc-product-star-true"></span>
+										<span class="cpc-product-star-true"></span>
+									</div>
+								</div>
+							</div>
+							<h3 class="cpc-product-color" data-bind="text: data.currentShoeOption().shoeColor"></h3>
+							<div>
+								<span class="cpc-product-rrp" data-bind="text: data.currentShoeOption().RRP"></span><span class="cpc-product-dp" data-bind="text: data.currentShoeOption().discountPrice"></span>
+							</div>
+						</section>
+						<section>
+							<h2 class="cpc-product-desc">Descripcion</h2>
+							<p class="cpc-product-desc-text">¡Obtén la máxima comodidad y rendimiento mientras haces ejercicio con nuestra Camisilla!
+							Si estás buscando un conjunto de entrenamiento que te permita moverte libremente y sin restricciones, ¡nuestra prenda es la solución perfecta para ti! Diseñada con un ajuste unico , esta prenda te brinda la comodidad que necesitas para realizar cualquier actividad física con facilidad.
+						<section class="cpc-color-section">
+							<h2 class="cpc-product-color-title">Colorㅤ-ㅤVista</h2>
+							<div data-bind="foreach: data.shoeOptions">
+								<input type="radio" name="colors" data-bind="checked: $root.functions.checkedRadio(), 
+											event: {change: function(){$root.functions.colorOptionClick($index())}}, 
+											attr: {id: inputID}" />
+								<label data-bind="attr: {for: inputID, class: labelClass}"></label>
+							</div>
+						</section>
+						<section class="cpc-size-section">
+							<h2 class="cpc-product-size-title">Tamaño</h2>
+							<select class="cpc-product-size-select">
+										<option>S</option>
+										<option>M</option>
+										<option>L</option>
+										<option>XL</option>
+									</select>
+						</section>
+						<section class="cpc-qty-section">
+							<h2 class="cpc-product-qty-title">Cantidad</h2>
+							<select class="cpc-product-qty-select">
+										<option>(1)</option>
+										<option>(2)</option>
+										<option>(3)</option>
+										<option>(4)</option>
+										<option>(5)</option>
+										<option>(6)</option>
+										<option>(7)</option>
+									</select>
+						</section>
+						<section class="cpc-atc-share-section">
+							<a href="#" class="cpc-atc-button">Añadir al carrito</a>
+						</section>
+					</article>
+				</div>
+			</main>
+		</div>
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js'></script>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
