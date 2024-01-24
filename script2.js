@@ -2,8 +2,8 @@ var viewModel = {
 	data: {
 		shoeOptions: [{
 			"shoeColor": "Color Negro con Blanco",
-			"RRP": "$55.000",
-			"discountPrice": "$50.000",
+			"RRP": "$70.000",
+			"discountPrice": "$49.990",
 			"className": "cpc-product-black",
 			"rating": 90,
 			"inputID": "rad4",
@@ -11,8 +11,8 @@ var viewModel = {
 			"shoeImage": "https://i.imgur.com/mZAoqph.png"
 		}, {
 			"shoeColor": "Color Negro con Blanco",
-			"RRP": "$55.000",
-			"discountPrice": "$50.000",
+			"RRP": "$70.000",
+			"discountPrice": "$49.990",
 			"className": "cpc-product-grey",
 			"rating": 90,
 			"inputID": "rad5",
@@ -20,8 +20,8 @@ var viewModel = {
 			"shoeImage": "https://i.imgur.com/mZAoqph.png"
 		}, {
 			"shoeColor": "Color Negro con Blanco",
-			"RRP": "$55.000",
-			"discountPrice": "$50.000",
+			"RRP": "$70.000",
+			"discountPrice": "$49.990",
 			"className": "cpc-product-black",
 			"rating": 90,
 			"inputID": "rad6",
@@ -29,8 +29,8 @@ var viewModel = {
 			"shoeImage": "https://i.imgur.com/o24A7K5.png"
 		}, {
 			"shoeColor": "Color Negro con Blanco",
-			"RRP": "$55.000",
-			"discountPrice": "$50.000",
+			"RRP": "$70.000",
+			"discountPrice": "$49.990",
 			"className": "cpc-product-grey",
 			"rating": 90,
 			"inputID": "rad7",
@@ -39,8 +39,8 @@ var viewModel = {
 		}],
 		currentShoeOption: ko.observable({
 		    	"shoeColor": "Color Negro con Blanco",
-			    "RRP": "$55.000",
-			"discountPrice": "$50.000",
+				"RRP": "$70.000",
+				"discountPrice": "$49.990",
 			    "className": "cpc-product-black",
 			    "rating": 90,
 			    "inputID": "rad4",
