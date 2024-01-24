@@ -74,6 +74,14 @@ header button{
   margin-right: 20px;
   cursor:pointer;
 }
+.cards .card .priceV{
+  margin-right: 20px;
+  cursor:pointer;
+  text-decoration: line-through;
+  color: #d81919;
+  position: relative;
+  left: 30px;
+}
 .cards .card img{
   width: 350px;
 }
