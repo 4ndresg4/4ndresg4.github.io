@@ -81,6 +81,11 @@ header button{
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
+  text-decoration: none;
+}
+.cards .card .enlace-sin-subrayado{
+  text-decoration: none;
+  color: #000000;
 }
 .cards .card .card-body p{
   margin-top: -20px;
@@ -122,6 +127,11 @@ footer .social-media p{
   text-align:center;
   width: 20px;
   cursor:pointer;
+}
+footer .instagramF{
+
+  text-decoration: none;
+  color: #ffffff;
 }
 /* Fin du pied de page */
 
