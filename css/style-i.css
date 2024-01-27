@@ -279,8 +279,24 @@ img{
   }
 
 }
+@media (max-width: 640px) {
+  .cards .card .priceV{
+    margin-right: 20px;
+    position: relative;
+    left: 33px;
+  }
+}
 @media (max-width: 510px) {
   .cards .card .priceV{
-    margin-right: 30px;
+    margin-right: 20px;
+    position: relative;
+    left: 24px;
+  }
+}
+@media (max-width: 400px) {
+  .cards .card .priceV{
+    margin-right: 20px;
+    position: relative;
+    left: 20px;
   }
 }

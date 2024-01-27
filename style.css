@@ -68,6 +68,9 @@ body {
   animation-name: fadeInRight;
 }
 
+.icononav{
+  height: 200%;
+}
 .cpc-viewport {
   display: none;
   position: absolute;
@@ -115,24 +118,27 @@ body {
 @media screen and (max-width: 950px) {
   .cpc-product-imgs {
     display: block;
-    height: 250px;
     width: 100%;
     text-align: center;
+  }
+  .icononav{
+    width: 522%;
+    height: 1321%;
   }
 }
 
 .cpc-product-shoe-img {
   width: 362px;
   margin-left: -90px;
-  margin-top: 31px;
+  margin-top: 44px;
   position: absolute;
 }
 @media screen and (max-width: 950px) {
   .cpc-product-shoe-img {
-    margin-top: 22px;
-    width: 265px;
+    margin-top: -10px;
+    width: 400px;
     position: inherit;
-    margin-left: -12px;
+    margin-bottom: -4px;
   }
 }
 
