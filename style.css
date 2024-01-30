@@ -127,18 +127,43 @@ body {
   }
 }
 
+.container{
+  position: relative;
+  top: 20px;
+}
+/* .cpc-product-shoe-img {
+  width: 222px;
+  height: 321%;
+  margin-left: -90px;
+  margin-top: 44px;
+  object-fit: cover;
+  position: absolute;
+} */
 .cpc-product-shoe-img {
   width: 362px;
-  margin-left: -90px;
+  margin-top: 44px;
+  position: absolute;
+}
+.cpc-product-shoe-img2 {
+  width: 362px;
+  /* margin-left: -90px; */
   margin-top: 44px;
   position: absolute;
 }
 @media screen and (max-width: 950px) {
   .cpc-product-shoe-img {
     margin-top: -10px;
+    width: 161px;
+    height: 319px;
+    position: inherit;
+    margin-bottom: 0px;
+    object-fit: cover;
+  }
+  .cpc-product-shoe-img2 {
+    margin-top: -17px;
     width: 400px;
     position: inherit;
-    margin-bottom: -4px;
+    margin-bottom: -1px;
   }
 }
 

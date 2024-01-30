@@ -6,6 +6,8 @@
   <link rel="shortcut icon" href="https://i.imgur.com/Ju2U2kM.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+<script src="splide-4.1.3/dist/js/splide.min.js"></script>
 
 </head>
 <body>
@@ -48,12 +50,22 @@
 
 					</div>
 					<div class="cpc-img-wrapper">
-						<img id="cpc-img" class="cpc-product-shoe-img animated fadeInLeft" data-bind="attr: {src: data.currentShoeOption().shoeImage}" src='https://i.imgur.com/lpOwE9G.png'>
+						<section class="splide" aria-label="Basic Structure Example">
+							<div class="splide__track">
+							  <ul class="splide__list">
+								<li class="splide__slide"><img class="cpc-product-shoe-img" src="https://i.imgur.com/bV5zcmi.png" alt=""></li>
+								<li class="splide__slide"><img class="cpc-product-shoe-img" src="https://i.imgur.com/0pJWxnQ.png" alt=""></li>
+							  </ul>
+							</div>
+						  </section>
 					</div>
-					<div class="cpc-circle-container">
+					<!-- <div class="cpc-img-wrapper">
+						<img id="cpc-img" class="cpc-product-shoe-img animated fadeInLeft" data-bind="attr: {src: data.currentShoeOption().shoeImage}" src='https://i.imgur.com/lpOwE9G.png'>
+					</div> -->
+					<!-- <div class="cpc-circle-container">
 						<span class="cpc-product-circle-active cpc-product-img-circle"></span>
 					
-					</div>
+					</div> -->
 				</div>
 				<div class="cpc-product-info">
 					<article class="animated fadeInRight">
@@ -126,6 +138,13 @@
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js'></script>
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+<script>
+	var splide = new Splide( '.splide', {
+	  type  : 'fade',
+	  rewind: true,
+	} );
+	
+	splide.mount();</script>
 
 </body>
 </html>

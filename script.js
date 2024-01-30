@@ -18,25 +18,27 @@ var viewModel = {
 			"inputID": "rad5",
 			"labelClass": "cpc-radio-grey",
 			"shoeImage": "https://i.imgur.com/bV5zcmi.png"
-		}, {
-			"shoeColor": "Color Blanco con Negro",
-			"RRP": "$70.000",
-			"discountPrice": "$49.990",
-			"className": "cpc-product-black",
-			"rating": 90,
-			"inputID": "rad6",
-			"labelClass": "cpc-radio-green1",
-			"shoeImage": "https://i.imgur.com/0pJWxnQ.png"
-		}, {
-			"shoeColor": "Color Blanco con Negro",
-			"RRP": "$70.000",
-			"discountPrice": "$49.990",
-			"className": "cpc-product-grey",
-			"rating": 90,
-			"inputID": "rad7",
-			"labelClass": "cpc-radio-red",
-			"shoeImage": "https://i.imgur.com/0pJWxnQ.png"
-		}],
+		},
+		//  {
+		// 	"shoeColor": "Color Blanco con Negro",
+		// 	"RRP": "$70.000",
+		// 	"discountPrice": "$49.990",
+		// 	"className": "cpc-product-black",
+		// 	"rating": 90,
+		// 	"inputID": "rad6",
+		// 	"labelClass": "cpc-radio-green1",
+		// 	"shoeImage": "https://i.imgur.com/0pJWxnQ.png"
+		// }, {
+		// 	"shoeColor": "Color Blanco con Negro",
+		// 	"RRP": "$70.000",
+		// 	"discountPrice": "$49.990",
+		// 	"className": "cpc-product-grey",
+		// 	"rating": 90,
+		// 	"inputID": "rad7",
+		// 	"labelClass": "cpc-radio-red",
+		// 	"shoeImage": "https://i.imgur.com/0pJWxnQ.png"
+		// }
+	],
 		currentShoeOption: ko.observable({
 		    	"shoeColor": "Color Blanco con Negro",
 				"RRP": "$70.000",
